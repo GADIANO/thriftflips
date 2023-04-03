@@ -1,0 +1,199 @@
+html{ margin: 0; padding: 0;}
+body{
+    font-family: 'Assistant', sans-serif;
+    font-size: 20;
+    background-image: url(pink\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#wrapper{
+  width: 98%;
+    min-height: 600px;
+    padding:4px;
+    margin: 0 auto;
+    background-color: #e98aa5;
+}
+#header{
+    width: 98%;
+    height: 120px;
+    margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#menu{
+    height: 24px;
+    width: 98% cover;
+}
+#second-submenu{
+    height: 24px;
+    width: 98%;
+}
+#third-submenu{
+   height: 24px;
+    width: 98%;
+    text-align: right;
+}
+#menu a, #second-submenu a, #third-submenu a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+#menu a:hover, #second-submenu a:hover, #third-submenu a:hover{
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+#content{
+    width: 96%;
+    padding: 8px;
+    min-height: 600px;
+    margin: 4px auto;
+    background-color: white;
+}
+#subcontent{
+    width: 98%;
+    padding: 4px;
+}
+.move-right{
+    float: right;
+}
+/* FORM */
+.input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: -moz-grid-line;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: pink;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#form-block {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+#form-block #form-block-half{
+    width: 45%;
+    float: left;
+    padding: 20px;
+}
+/** end */
+
+#data-list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#data-list td, #data-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#data-list tr:nth-child(even){background-color: #f2f2f2;}
+
+#data-list tr:hover {background-color: #ddd;}
+
+#data-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+#container{
+    width: 30%;
+      min-height: 300px;
+      padding:20px;
+      margin: 0 auto;
+      background-color: #EFE7DA;
+      border-color: #000;
+      text-align: center;
+  }
+  .style1 {
+    font-size: small;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+  .style2 {font-family: Verdana, Arial, Helvetica, sans-serif}
+  .style3 {font-size: small}
+  .style12 {font-size: small; font-weight: bold; }
+  .style13 {font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: #000000;
+  }
+  .style4 {font-size: small;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  .style5 {color: #FFFFFF}
+  .style6 {color: #000000}
+  
+  .ds_box {
+    background-color:#336633;
+    border: 2px solid #666600;
+    position:absolute;
+    z-index: 32767;
+  }
+  
+  .ds_tbl {
+    background-color: #FFF;
+  
+  }
+  
+  .ds_head {
+    background-color: #85A157;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  
+  .ds_subhead {
+    background-color: #85A157;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 32px;
+  }
+  
+  .ds_cell {
+    background-color:#FFFFCC;
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid #666600;
+  }
+  
+  .ds_cell:hover {
+    background-color: #f372e1;
+  } /* This hover code won't work for IE */
+
+  
